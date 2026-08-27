@@ -24,7 +24,7 @@ export default function SimRacing() {
             Where to watch
           </p>
           <ul className="space-y-4">
-            <li className="flex items-center justify-between border-b border-line pb-3 min-h-11">
+            <li className="flex items-center justify-between min-h-11">
               <span>Instagram</span>
               <a
                 href="https://instagram.com/x2motorsports"
@@ -34,14 +34,6 @@ export default function SimRacing() {
               >
                 @x2motorsports
               </a>
-            </li>
-            <li className="flex items-center justify-between border-b border-line pb-3 min-h-11">
-              <span className="text-muted">YouTube</span>
-              <span className="text-sm text-muted">Coming soon</span>
-            </li>
-            <li className="flex items-center justify-between min-h-11">
-              <span className="text-muted">Twitch</span>
-              <span className="text-sm text-muted">Coming soon</span>
             </li>
           </ul>
         </div>
