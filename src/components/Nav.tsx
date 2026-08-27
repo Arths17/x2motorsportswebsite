@@ -14,21 +14,18 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-telemetry/20 bg-graphite/95 backdrop-blur">
-      <div className="mx-auto max-w-6xl px-6 md:px-12 flex items-center justify-between h-16">
-        <a
-          href="#top"
-          className="font-display uppercase tracking-[0.15em] text-lg text-paper flex items-center min-h-11 -my-2 py-2"
-        >
-          X2 <span className="text-livery">Motorsports</span>
+    <header className="sticky top-0 z-50 border-b border-line bg-bg/95 backdrop-blur">
+      <div className="mx-auto max-w-5xl px-6 md:px-10 flex items-center justify-between h-16">
+        <a href="#top" className="font-display italic text-lg">
+          X2 Motorsports
         </a>
 
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-7">
           {LINKS.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="font-tel text-xs tracking-[0.15em] uppercase text-telemetry hover:text-paper transition-colors"
+              className="text-sm text-muted hover:text-ink transition-colors"
             >
               {link.label}
             </a>
@@ -37,7 +34,7 @@ export default function Nav() {
 
         <button
           type="button"
-          className="md:hidden font-tel text-xs tracking-[0.15em] uppercase text-paper border border-telemetry/40 px-4 min-h-11 flex items-center"
+          className="md:hidden text-sm border border-line px-3 min-h-11 flex items-center"
           aria-expanded={open}
           aria-controls="mobile-nav"
           onClick={() => setOpen((v) => !v)}
@@ -49,13 +46,13 @@ export default function Nav() {
       {open && (
         <nav
           id="mobile-nav"
-          className="md:hidden border-t border-telemetry/20 px-6 py-2 flex flex-col"
+          className="md:hidden border-t border-line px-6 py-2 flex flex-col"
         >
           {LINKS.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="font-tel text-sm tracking-[0.15em] uppercase text-paper min-h-12 flex items-center border-b border-telemetry/10 last:border-b-0"
+              className="text-base min-h-12 flex items-center border-b border-line last:border-b-0"
               onClick={() => setOpen(false)}
             >
               {link.label}

@@ -1,21 +1,17 @@
 export default function Footer() {
   return (
-    <footer className="border-t border-telemetry/20 px-6 md:px-12 py-8">
-      <div className="mx-auto max-w-6xl flex flex-col sm:flex-row items-center justify-between gap-4">
-        <span className="font-display uppercase tracking-[0.15em] text-sm">
-          X2 <span className="text-livery">Motorsports</span>
-        </span>
+    <footer className="border-t border-line px-6 md:px-10 py-8">
+      <div className="mx-auto max-w-5xl flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted">
+        <span className="font-display italic">X2 Motorsports</span>
         <a
           href="https://instagram.com/x2motorsports"
           target="_blank"
           rel="noreferrer noopener"
-          className="font-tel text-xs tracking-[0.15em] uppercase text-telemetry hover:text-paper transition-colors min-h-11 flex items-center"
+          className="hover:text-ink transition-colors min-h-11 flex items-center"
         >
           @x2motorsports
         </a>
-        <span className="font-tel text-xs text-telemetry">
-          © 2026 X2 Motorsports. Independent team.
-        </span>
+        <span>© 2026 X2 Motorsports. Independent team.</span>
       </div>
     </footer>
   );

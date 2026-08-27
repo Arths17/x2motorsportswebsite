@@ -1,26 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  --color-graphite: #0b0d0c;
-  --color-paper: #f2f0ea;
-  --color-livery: #e8481c;
-  --color-solar: #3a6b5c;
-  --color-telemetry: #8a8f8c;
-  --color-livery-dim: #9c3414;
-  --color-solar-dim: #294f44;
+  --color-bg: #faf9f7;
+  --color-ink: #17181a;
+  --color-muted: #5c6066;
+  --color-line: #dcdad5;
+  --color-green: #1f4b3f;
+  --color-amber: #a8631e;
 }
 
 @theme inline {
-  --color-graphite: var(--color-graphite);
-  --color-paper: var(--color-paper);
-  --color-livery: var(--color-livery);
-  --color-solar: var(--color-solar);
-  --color-telemetry: var(--color-telemetry);
-  --color-livery-dim: var(--color-livery-dim);
-  --color-solar-dim: var(--color-solar-dim);
+  --color-bg: var(--color-bg);
+  --color-ink: var(--color-ink);
+  --color-muted: var(--color-muted);
+  --color-line: var(--color-line);
+  --color-green: var(--color-green);
+  --color-amber: var(--color-amber);
   --font-display: var(--font-display);
   --font-body: var(--font-body);
-  --font-mono-tel: var(--font-mono-tel);
 }
 
 * {
@@ -37,26 +34,25 @@
 }
 
 body {
-  background: var(--color-graphite);
-  color: var(--color-paper);
+  background: var(--color-bg);
+  color: var(--color-ink);
   font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
 }
 
 ::selection {
-  background: var(--color-livery);
-  color: var(--color-paper);
+  background: var(--color-green);
+  color: var(--color-bg);
 }
 
 :focus-visible {
-  outline: 2px solid var(--color-livery);
+  outline: 2px solid var(--color-green);
   outline-offset: 3px;
 }
 
 .font-display {
-  font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-display), Georgia, serif;
 }
 
-.font-tel {
-  font-family: var(--font-mono-tel), ui-monospace, monospace;
-  font-variant-numeric: tabular-nums;
+a {
+  text-underline-offset: 3px;
 }
