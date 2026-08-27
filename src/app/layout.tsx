@@ -15,10 +15,24 @@ const bodyFont = Work_Sans({
   weight: ["400", "500", "600"],
 });
 
+const title = "X2 Motorsports — Sim Racing & Solar Car Challenge";
+const description =
+  "X2 Motorsports is an independent motorsports team racing RaceRoom competitively today and building a student solar car program for tomorrow.";
+
 export const metadata: Metadata = {
-  title: "X2 Motorsports — Sim Racing & Solar Car Challenge",
-  description:
-    "X2 Motorsports is an independent motorsports team racing RaceRoom competitively today and building a student solar car program for tomorrow.",
+  metadataBase: new URL("https://x2motorsportswebsite.vercel.app"),
+  title,
+  description,
+  openGraph: {
+    title,
+    description,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
