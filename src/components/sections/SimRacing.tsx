@@ -63,24 +63,24 @@ export default function SimRacing() {
                 <p className="font-tel text-[10px] tracking-[0.2em] uppercase text-telemetry">
                   Channel Status
                 </p>
-                <div className="flex items-center justify-between border-b border-telemetry/15 pb-3">
+                <div className="flex items-center justify-between border-b border-telemetry/15 min-h-11">
                   <span className="text-paper text-sm">Instagram</span>
                   <a
                     href="https://instagram.com/x2motorsports"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="font-tel text-sm text-livery hover:underline"
+                    className="font-tel text-sm text-livery hover:underline min-h-11 flex items-center"
                   >
                     @x2motorsports · live
                   </a>
                 </div>
-                <div className="flex items-center justify-between border-b border-telemetry/15 pb-3">
+                <div className="flex items-center justify-between border-b border-telemetry/15 min-h-11">
                   <span className="text-paper/40 text-sm">YouTube</span>
                   <span className="font-tel text-sm text-telemetry">
                     standby
                   </span>
                 </div>
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between min-h-11">
                   <span className="text-paper/40 text-sm">Twitch</span>
                   <span className="font-tel text-sm text-telemetry">
                     standby

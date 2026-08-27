@@ -26,7 +26,7 @@ export default function Contact() {
             </p>
             <a
               href="mailto:contact@x2motorsports.example"
-              className="font-tel text-paper hover:text-livery transition-colors break-all"
+              className="font-tel text-paper hover:text-livery transition-colors break-all min-h-11 flex items-center"
             >
               contact@x2motorsports.example
             </a>
@@ -42,7 +42,7 @@ export default function Contact() {
               href="https://instagram.com/x2motorsports"
               target="_blank"
               rel="noreferrer noopener"
-              className="font-tel text-paper hover:text-livery transition-colors"
+              className="font-tel text-paper hover:text-livery transition-colors min-h-11 flex items-center"
             >
               @x2motorsports
             </a>

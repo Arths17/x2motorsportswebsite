@@ -61,7 +61,11 @@ export default function Sponsors() {
           </div>
         </RevealOnScroll>
 
-        <RevealOnScroll className="overflow-x-auto">
+        <RevealOnScroll className="min-w-0">
+          <p className="md:hidden font-tel text-[10px] tracking-[0.2em] uppercase text-telemetry mb-2">
+            Swipe to see all columns →
+          </p>
+          <div className="overflow-x-auto">
           <table className="w-full min-w-140 border-collapse font-tel text-sm">
             <thead>
               <tr className="border-b border-livery/40 text-left">
@@ -96,6 +100,7 @@ export default function Sponsors() {
               ))}
             </tbody>
           </table>
+          </div>
           <p className="mt-4 text-xs text-telemetry">
             Exact terms negotiated per sponsor — reach out for specifics.
           </p>

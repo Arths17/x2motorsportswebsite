@@ -24,7 +24,11 @@ export default function SolarCar() {
         </RevealOnScroll>
 
         {/* Build-stage ladder — shows the honest early stage structurally */}
-        <RevealOnScroll className="mb-16 overflow-x-auto">
+        <RevealOnScroll className="mb-16">
+          <p className="md:hidden font-tel text-[10px] tracking-[0.2em] uppercase text-telemetry mb-3">
+            Swipe to see all stages →
+          </p>
+          <div className="overflow-x-auto -mx-6 px-6 md:mx-0 md:px-0">
           <div className="flex min-w-160 md:min-w-0">
             {STAGES.map((stage, i) => (
               <div key={stage.name} className="flex-1 flex flex-col items-center">
@@ -60,6 +64,7 @@ export default function SolarCar() {
                 </span>
               </div>
             ))}
+          </div>
           </div>
         </RevealOnScroll>
 

@@ -18,7 +18,7 @@ export default function Nav() {
       <div className="mx-auto max-w-6xl px-6 md:px-12 flex items-center justify-between h-16">
         <a
           href="#top"
-          className="font-display uppercase tracking-[0.15em] text-lg text-paper"
+          className="font-display uppercase tracking-[0.15em] text-lg text-paper flex items-center min-h-11 -my-2 py-2"
         >
           X2 <span className="text-livery">Motorsports</span>
         </a>
@@ -37,7 +37,7 @@ export default function Nav() {
 
         <button
           type="button"
-          className="md:hidden font-tel text-xs tracking-[0.15em] uppercase text-paper border border-telemetry/40 px-3 py-2"
+          className="md:hidden font-tel text-xs tracking-[0.15em] uppercase text-paper border border-telemetry/40 px-4 min-h-11 flex items-center"
           aria-expanded={open}
           aria-controls="mobile-nav"
           onClick={() => setOpen((v) => !v)}
@@ -49,13 +49,13 @@ export default function Nav() {
       {open && (
         <nav
           id="mobile-nav"
-          className="md:hidden border-t border-telemetry/20 px-6 py-4 flex flex-col gap-4"
+          className="md:hidden border-t border-telemetry/20 px-6 py-2 flex flex-col"
         >
           {LINKS.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="font-tel text-sm tracking-[0.15em] uppercase text-paper"
+              className="font-tel text-sm tracking-[0.15em] uppercase text-paper min-h-12 flex items-center border-b border-telemetry/10 last:border-b-0"
               onClick={() => setOpen(false)}
             >
               {link.label}

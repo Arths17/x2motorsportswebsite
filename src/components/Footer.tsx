@@ -9,7 +9,7 @@ export default function Footer() {
           href="https://instagram.com/x2motorsports"
           target="_blank"
           rel="noreferrer noopener"
-          className="font-tel text-xs tracking-[0.15em] uppercase text-telemetry hover:text-paper transition-colors"
+          className="font-tel text-xs tracking-[0.15em] uppercase text-telemetry hover:text-paper transition-colors min-h-11 flex items-center"
         >
           @x2motorsports
         </a>
