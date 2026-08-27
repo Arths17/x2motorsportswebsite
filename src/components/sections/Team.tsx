@@ -15,7 +15,7 @@ const FOUNDERS = [
 
 export default function Team() {
   return (
-    <section id="team" className="px-6 md:px-10 py-16 md:py-20 border-b border-line bg-[#f4f2ee]">
+    <section id="team" className="px-6 md:px-10 py-16 md:py-20 border-b border-line bg-bg-alt">
       <div className="mx-auto max-w-5xl">
         <h2 className="font-display text-3xl md:text-4xl mb-5">Team</h2>
         <p className="max-w-2xl text-muted leading-relaxed mb-10">

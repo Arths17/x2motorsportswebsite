@@ -1,16 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --color-bg: #faf9f7;
-  --color-ink: #17181a;
-  --color-muted: #5c6066;
-  --color-line: #dcdad5;
-  --color-green: #1f4b3f;
-  --color-amber: #a8631e;
+  --color-bg: #121314;
+  --color-bg-alt: #191b1c;
+  --color-ink: #f1f0ec;
+  --color-muted: #9fa3a0;
+  --color-line: #2b2d2e;
+  --color-green: #5fa88e;
+  --color-amber: #d99c3f;
 }
 
 @theme inline {
   --color-bg: var(--color-bg);
+  --color-bg-alt: var(--color-bg-alt);
   --color-ink: var(--color-ink);
   --color-muted: var(--color-muted);
   --color-line: var(--color-line);

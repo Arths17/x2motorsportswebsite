@@ -1,6 +1,6 @@
 export default function SolarCar() {
   return (
-    <section id="solar-car" className="px-6 md:px-10 py-16 md:py-20 border-b border-line bg-[#f4f2ee]">
+    <section id="solar-car" className="px-6 md:px-10 py-16 md:py-20 border-b border-line bg-bg-alt">
       <div className="mx-auto max-w-5xl grid md:grid-cols-[1.2fr_1fr] gap-10 md:gap-16">
         <div>
           <h2 className="font-display text-3xl md:text-4xl mb-5">

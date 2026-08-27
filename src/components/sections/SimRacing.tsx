@@ -12,7 +12,7 @@ export default function SimRacing() {
             car hits the track.
           </p>
 
-          <div className="mt-8 aspect-video w-full max-w-md bg-[#f0efec] border border-line flex items-center justify-center">
+          <div className="mt-8 aspect-video w-full max-w-md bg-bg-alt border border-line flex items-center justify-center">
             <span className="text-sm text-muted text-center px-4">
               Race clip placeholder — embed on request
             </span>

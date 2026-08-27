@@ -12,14 +12,11 @@ export default function Contact() {
 
         <div className="flex flex-col gap-2 max-w-md">
           <a
-            href="mailto:contact@x2motorsports.example"
+            href="mailto:x2motorsports2010@gmail.com"
             className="text-lg text-ink underline decoration-green decoration-2 underline-offset-4 hover:text-green transition-colors min-h-11 flex items-center"
           >
-            contact@x2motorsports.example
+            x2motorsports2010@gmail.com
           </a>
-          <p className="text-xs text-muted">
-            Placeholder — update once a real inbox is set up.
-          </p>
           <a
             href="https://instagram.com/x2motorsports"
             target="_blank"
