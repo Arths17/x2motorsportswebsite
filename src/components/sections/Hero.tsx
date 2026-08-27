@@ -26,10 +26,7 @@ export default function Hero() {
 
       <div className="mx-auto max-w-6xl px-6 md:px-12 pt-16 pb-20 md:pt-24 md:pb-28 grid md:grid-cols-[1fr_auto] gap-10 md:gap-16 items-end">
         <div>
-          <p className="font-tel text-xs tracking-[0.25em] text-livery uppercase mb-5">
-            Independent Motorsports Team
-          </p>
-          <h1 className="font-display uppercase text-[13vw] leading-[0.88] sm:text-6xl md:text-8xl md:leading-[0.85] tracking-[-0.02em]">
+          <h1 className="font-display text-[13vw] leading-[0.92] sm:text-6xl md:text-8xl md:leading-[0.9] tracking-[-0.02em]">
             Sim racing
             <br />
             <span className="text-telemetry">now.</span>
@@ -50,13 +47,13 @@ export default function Hero() {
           <div className="mt-8 flex flex-wrap gap-4">
             <a
               href="#sim-racing"
-              className="font-tel text-xs tracking-[0.15em] uppercase bg-livery text-paper px-6 py-3 hover:bg-livery-dim transition-colors"
+              className="font-tel text-sm tracking-[0.02em] bg-livery text-paper px-6 py-3 hover:bg-livery-dim transition-colors"
             >
-              Watch the Racing
+              Watch the racing
             </a>
             <a
               href="#sponsors"
-              className="font-tel text-xs tracking-[0.15em] uppercase border border-paper/30 text-paper px-6 py-3 hover:border-paper transition-colors"
+              className="font-tel text-sm tracking-[0.02em] border border-paper/30 text-paper px-6 py-3 hover:border-paper transition-colors"
             >
               Sponsor X2
             </a>

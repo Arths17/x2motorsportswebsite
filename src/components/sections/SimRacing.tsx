@@ -4,9 +4,9 @@ export default function SimRacing() {
   return (
     <section id="sim-racing" className="px-6 md:px-12 pt-14 pb-20 md:pt-20 md:pb-28">
       <div className="mx-auto max-w-6xl">
-        <RevealOnScroll className="flex items-baseline justify-between gap-4 flex-wrap mb-10">
-          <h2 className="font-display uppercase text-3xl md:text-5xl tracking-tight">
-            Sim Racing
+        <RevealOnScroll direction="left" className="flex items-baseline justify-between gap-4 flex-wrap mb-10">
+          <h2 className="font-display text-3xl md:text-5xl tracking-tight">
+            Sim racing
           </h2>
           <p className="font-tel text-xs tracking-[0.2em] text-livery uppercase">
             RaceRoom Racing Experience

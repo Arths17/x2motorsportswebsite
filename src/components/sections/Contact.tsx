@@ -8,10 +8,10 @@ export default function Contact() {
           <p className="font-tel text-xs tracking-[0.25em] text-livery uppercase mb-4">
             Channel Open
           </p>
-          <h2 className="font-display uppercase text-4xl md:text-6xl tracking-tight leading-[0.95]">
-            Sponsor, Join,
+          <h2 className="font-display text-4xl md:text-6xl tracking-tight leading-[0.95]">
+            Sponsor, join,
             <br />
-            or Say Hi
+            or say hi
           </h2>
           <p className="mt-6 max-w-md text-telemetry leading-relaxed">
             Reach out by email — we&rsquo;re looking for racers, engineers,
@@ -19,30 +19,30 @@ export default function Contact() {
           </p>
         </RevealOnScroll>
 
-        <RevealOnScroll className="border-l-2 border-livery pl-6 flex flex-col gap-5">
-          <div>
-            <p className="font-tel text-[10px] tracking-[0.2em] uppercase text-telemetry mb-1">
+        <RevealOnScroll direction="right" className="flex flex-col">
+          <div className="flex items-baseline justify-between gap-4 border-t border-telemetry/25 py-4 min-h-11">
+            <span className="font-tel text-[10px] tracking-[0.2em] uppercase text-telemetry">
               Email
-            </p>
+            </span>
             <a
               href="mailto:contact@x2motorsports.example"
-              className="font-tel text-paper hover:text-livery transition-colors break-all min-h-11 flex items-center"
+              className="font-tel text-paper hover:text-livery transition-colors text-right"
             >
               contact@x2motorsports.example
             </a>
-            <p className="mt-1 text-[11px] text-telemetry/70">
-              Placeholder — update once a real inbox is set up.
-            </p>
           </div>
-          <div>
-            <p className="font-tel text-[10px] tracking-[0.2em] uppercase text-telemetry mb-1">
+          <p className="text-[11px] text-telemetry/70 -mt-2 mb-2">
+            Placeholder — update once a real inbox is set up.
+          </p>
+          <div className="flex items-baseline justify-between gap-4 border-t border-b border-telemetry/25 py-4 min-h-11">
+            <span className="font-tel text-[10px] tracking-[0.2em] uppercase text-telemetry">
               Instagram
-            </p>
+            </span>
             <a
               href="https://instagram.com/x2motorsports"
               target="_blank"
               rel="noreferrer noopener"
-              className="font-tel text-paper hover:text-livery transition-colors min-h-11 flex items-center"
+              className="font-tel text-paper hover:text-livery transition-colors"
             >
               @x2motorsports
             </a>

@@ -32,8 +32,8 @@ export default function Sponsors() {
           <p className="font-tel text-xs tracking-[0.25em] text-livery uppercase mb-4">
             Backing X2
           </p>
-          <h2 className="font-display uppercase text-3xl md:text-5xl tracking-tight">
-            Sponsor Ledger
+          <h2 className="font-display text-3xl md:text-5xl tracking-tight">
+            Sponsor ledger
           </h2>
           <p className="mt-6 text-telemetry leading-relaxed">
             You&rsquo;d be backing a team early — before the sim racing
@@ -61,7 +61,7 @@ export default function Sponsors() {
           </div>
         </RevealOnScroll>
 
-        <RevealOnScroll className="min-w-0">
+        <RevealOnScroll direction="left" className="min-w-0">
           <p className="md:hidden font-tel text-[10px] tracking-[0.2em] uppercase text-telemetry mb-2">
             Swipe to see all columns →
           </p>

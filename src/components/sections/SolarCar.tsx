@@ -1,75 +1,36 @@
 import RevealOnScroll from "@/components/RevealOnScroll";
 
-const STAGES = [
-  { name: "Concept", done: true },
-  { name: "Team", done: true },
-  { name: "Funding", done: false },
-  { name: "Design", done: false },
-  { name: "Build", done: false },
-  { name: "Test", done: false },
-  { name: "Race", done: false },
-];
+const STAGES = ["Concept", "Team", "Funding", "Design", "Build", "Test", "Race"];
+const DONE_COUNT = 2;
 
 export default function SolarCar() {
   return (
     <section id="solar-car" className="pt-20 pb-24 md:pt-28 md:pb-36 bg-[#0f1211] border-y border-solar/20">
       <div className="mx-auto max-w-6xl px-6 md:px-12">
-        <RevealOnScroll className="mb-14">
+        <RevealOnScroll direction="none" className="mb-10">
           <p className="font-tel text-xs tracking-[0.25em] text-solar uppercase mb-4">
             Track Two
           </p>
-          <h2 className="font-display uppercase text-3xl md:text-5xl tracking-tight">
-            Solar Car Challenge
+          <h2 className="font-display text-3xl md:text-5xl tracking-tight">
+            Solar car challenge
           </h2>
         </RevealOnScroll>
 
-        {/* Build-stage ladder — shows the honest early stage structurally */}
-        <RevealOnScroll className="mb-16">
-          <p className="md:hidden font-tel text-[10px] tracking-[0.2em] uppercase text-telemetry mb-3">
-            Swipe to see all stages →
-          </p>
-          <div className="overflow-x-auto -mx-6 px-6 md:mx-0 md:px-0">
-          <div className="flex min-w-160 md:min-w-0">
-            {STAGES.map((stage, i) => (
-              <div key={stage.name} className="flex-1 flex flex-col items-center">
-                <div className="w-full flex items-center">
-                  <span
-                    className={`h-px flex-1 ${
-                      i === 0 ? "bg-transparent" : stage.done ? "bg-solar" : "bg-telemetry/20"
-                    }`}
-                  />
-                  <span
-                    className={`h-3 w-3 shrink-0 rotate-45 border ${
-                      stage.done
-                        ? "bg-solar border-solar"
-                        : "bg-transparent border-telemetry/40"
-                    }`}
-                  />
-                  <span
-                    className={`h-px flex-1 ${
-                      i === STAGES.length - 1
-                        ? "bg-transparent"
-                        : stage.done
-                        ? "bg-solar"
-                        : "bg-telemetry/20"
-                    }`}
-                  />
-                </div>
-                <span
-                  className={`mt-3 font-tel text-[10px] tracking-[0.15em] uppercase ${
-                    stage.done ? "text-solar" : "text-telemetry/60"
-                  }`}
-                >
-                  {stage.name}
-                </span>
-              </div>
-            ))}
-          </div>
-          </div>
+        {/* Build stage, stated plainly rather than as a generic progress stepper */}
+        <RevealOnScroll direction="none" className="mb-16 font-tel text-sm">
+          <span className="text-telemetry">Currently at: </span>
+          {STAGES.map((stage, i) => (
+            <span key={stage}>
+              <span className={i < DONE_COUNT ? "text-solar" : "text-telemetry/40"}>
+                {stage}
+              </span>
+              {i < STAGES.length - 1 && <span className="text-telemetry/30"> → </span>}
+            </span>
+          ))}
         </RevealOnScroll>
 
         <div className="grid md:grid-cols-[1fr_1fr] gap-12 md:gap-20 items-start">
-          <RevealOnScroll>
+          <RevealOnScroll direction="right">
             {/* Unfinished chassis outline — a car that isn't built yet */}
             <svg
               viewBox="0 0 400 140"
@@ -113,21 +74,13 @@ export default function SolarCar() {
 
             <div>
               <p className="font-tel text-[10px] tracking-[0.2em] uppercase text-solar mb-3">
-                What We Need Right Now
+                What we need right now
               </p>
-              <ul className="text-sm text-telemetry space-y-2">
-                <li className="border-l-2 border-solar/40 pl-3">
-                  Founding sponsors to fund materials and tooling
-                </li>
-                <li className="border-l-2 border-solar/40 pl-3">
-                  Solar cells, chassis materials, electrical components
-                </li>
-                <li className="border-l-2 border-solar/40 pl-3">
-                  Technical mentors with solar/EV build experience
-                </li>
-                <li className="border-l-2 border-solar/40 pl-3">
-                  Students interested in engineering, electrical, fabrication
-                </li>
+              <ul className="text-sm text-telemetry space-y-1.5">
+                <li>Founding sponsors to fund materials and tooling</li>
+                <li>Solar cells, chassis materials, electrical components</li>
+                <li>Technical mentors with solar/EV build experience</li>
+                <li>Students interested in engineering, electrical, fabrication</li>
               </ul>
             </div>
           </RevealOnScroll>
