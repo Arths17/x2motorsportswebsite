@@ -15,7 +15,7 @@ const bodyFont = Work_Sans({
   weight: ["400", "500", "600"],
 });
 
-const title = "X2 Motorsports — Sim Racing & Solar Car Challenge";
+const title = "X2 Motorsports: Sim Racing & Solar Car Challenge";
 const description =
   "X2 Motorsports is an independent motorsports team racing RaceRoom competitively today and building a student solar car program for tomorrow.";
 

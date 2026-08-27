@@ -6,8 +6,8 @@ export default function SimRacing() {
           <h2 className="font-display text-3xl md:text-4xl mb-5">Sim racing</h2>
           <p className="text-muted leading-relaxed">
             We compete in RaceRoom Racing Experience, running a full sim rig
-            with real telemetry, race craft, and setup work — the same
-            discipline as full-scale racing, without the fuel bill. It&rsquo;s
+            with real telemetry, race craft, and setup work. It&rsquo;s the
+            same discipline as full-scale racing, without the fuel bill, and
             how we build an audience and sharpen the team before the solar
             car hits the track.
           </p>

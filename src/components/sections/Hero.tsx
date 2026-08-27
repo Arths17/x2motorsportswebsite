@@ -8,7 +8,7 @@ export default function Hero() {
         <p className="mt-6 max-w-xl text-muted leading-relaxed text-lg">
           X2 Motorsports races RaceRoom competitively today, and is building
           toward a student-built solar car entry. Both run entirely
-          independent — no institutional backing, just a team building
+          independent, with no institutional backing. Just a team building
           credibility from scratch.
         </p>
         <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-3">

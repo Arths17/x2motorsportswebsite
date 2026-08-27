@@ -33,11 +33,11 @@ export default function Sponsors() {
           Why sponsor X2
         </h2>
         <p className="max-w-2xl text-muted leading-relaxed">
-          You&rsquo;d be backing a team early — before the sim racing audience
+          You&rsquo;d be backing a team early, before the sim racing audience
           is large and before the solar car exists. Lower cost now, higher
           visibility as we grow, and a direct hand in getting an independent
           motorsports program off the ground. X2 isn&rsquo;t a registered
-          nonprofit, so sponsorships aren&rsquo;t tax-deductible — this is
+          nonprofit, so sponsorships aren&rsquo;t tax-deductible. This is
           direct support for the team.
         </p>
 
@@ -55,8 +55,8 @@ export default function Sponsors() {
           ))}
         </div>
         <p className="mt-6 text-sm text-muted">
-          Tiers are a starting point — exact terms negotiated per sponsor,
-          reach out for specifics.
+          Tiers are a starting point. Exact terms are negotiated per
+          sponsor, so reach out for specifics.
         </p>
 
         <a

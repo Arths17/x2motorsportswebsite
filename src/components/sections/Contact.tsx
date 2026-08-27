@@ -6,7 +6,7 @@ export default function Contact() {
           Sponsor, join, or say hi
         </h2>
         <p className="max-w-md text-muted leading-relaxed mb-8">
-          Reach out by email — we&rsquo;re looking for racers, engineers, and
+          Reach out by email. We&rsquo;re looking for racers, engineers, and
           anyone who wants to help build something from the ground up.
         </p>
 

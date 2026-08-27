@@ -10,8 +10,8 @@ export default function SolarCar() {
             X2&rsquo;s second program is a student-built solar car, run
             entirely independent of any school or existing program. The goal
             is a car capable of entering a solar car race in the model of the
-            events formerly run through Coppell&rsquo;s program — we are not
-            affiliated with that program, it&rsquo;s simply the standard
+            events formerly run through Coppell&rsquo;s program. We are not
+            affiliated with that program; it&rsquo;s simply the standard
             we&rsquo;re building toward.
           </p>
           <p className="mt-4 text-muted leading-relaxed">
