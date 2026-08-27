@@ -14,13 +14,13 @@ export default function Hero() {
         <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-3">
           <a
             href="#sim-racing"
-            className="text-ink underline decoration-green decoration-2 underline-offset-4 hover:text-green transition-colors"
+            className="text-ink underline decoration-green decoration-2 underline-offset-4 hover:text-green transition-colors flex items-center min-h-11"
           >
             Watch the racing
           </a>
           <a
             href="#sponsors"
-            className="text-ink underline decoration-amber decoration-2 underline-offset-4 hover:text-amber transition-colors"
+            className="text-ink underline decoration-amber decoration-2 underline-offset-4 hover:text-amber transition-colors flex items-center min-h-11"
           >
             Sponsor X2
           </a>

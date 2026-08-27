@@ -16,7 +16,7 @@ export default function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b border-line bg-bg/95 backdrop-blur">
       <div className="mx-auto max-w-5xl px-6 md:px-10 flex items-center justify-between h-16">
-        <a href="#top" className="font-display italic text-lg">
+        <a href="#top" className="font-display italic text-lg flex items-center min-h-11">
           X2 Motorsports
         </a>
 
@@ -25,7 +25,7 @@ export default function Nav() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm text-muted hover:text-ink transition-colors"
+              className="text-sm text-muted hover:text-ink transition-colors flex items-center min-h-11"
             >
               {link.label}
             </a>
