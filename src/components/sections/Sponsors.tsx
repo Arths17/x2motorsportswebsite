@@ -59,24 +59,6 @@ export default function Sponsors() {
           reach out for specifics.
         </p>
 
-        <div className="mt-12">
-          <p className="text-sm uppercase tracking-wide text-muted mb-4">
-            Current sponsors
-          </p>
-          <div className="flex flex-wrap gap-4">
-            {[1, 2].map((i) => (
-              <div
-                key={i}
-                className="h-20 w-32 border border-dashed border-line flex items-center justify-center"
-              >
-                <span className="text-xs text-muted text-center px-2">
-                  Your logo here
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-
         <a
           href="#contact"
           className="mt-10 inline-flex items-center min-h-11 text-lg text-ink underline decoration-green decoration-2 underline-offset-4 hover:text-green transition-colors"

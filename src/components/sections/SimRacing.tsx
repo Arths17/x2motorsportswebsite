@@ -11,12 +11,6 @@ export default function SimRacing() {
             how we build an audience and sharpen the team before the solar
             car hits the track.
           </p>
-
-          <div className="mt-8 aspect-video w-full max-w-md bg-bg-alt border border-line flex items-center justify-center">
-            <span className="text-sm text-muted text-center px-4">
-              Race clip placeholder — embed on request
-            </span>
-          </div>
         </div>
 
         <div>
