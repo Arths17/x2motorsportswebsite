@@ -1,12 +1,12 @@
 const TIERS = [
   {
     name: "Friend",
-    amount: "$100+",
+    amount: "$250+",
     benefits: ["Listed on this site as a sponsor"],
   },
   {
     name: "Team Sponsor",
-    amount: "$500+",
+    amount: "$1,000+",
     benefits: [
       "Everything in Friend",
       "Logo on this site and a shoutout across our socials",
@@ -15,12 +15,12 @@ const TIERS = [
   },
   {
     name: "Title Sponsor",
-    amount: "$1,500+",
+    amount: "$2,500+",
     benefits: [
       "Everything in Team Sponsor",
       "Top billing on this site",
       "Direct input on how sponsorship funds are used",
-      "First look at solar car program updates",
+      "First look at Lemons build updates",
     ],
   },
 ];
@@ -34,7 +34,7 @@ export default function Sponsors() {
         </h2>
         <p className="max-w-2xl text-muted leading-relaxed">
           You&rsquo;d be backing a team early, before the sim racing audience
-          is large and before the solar car exists. Lower cost now, higher
+          is large and before the Lemons car exists. Lower cost now, higher
           visibility as we grow, and a direct hand in getting an independent
           motorsports program off the ground. X2 isn&rsquo;t a registered
           nonprofit, so sponsorships aren&rsquo;t tax-deductible. This is

@@ -15,9 +15,9 @@ const bodyFont = Work_Sans({
   weight: ["400", "500", "600"],
 });
 
-const title = "X2 Motorsports: Sim Racing & Solar Car Challenge";
+const title = "X2 Motorsports: Sim Racing & 24 Hours of Lemons";
 const description =
-  "X2 Motorsports is an independent motorsports team racing RaceRoom competitively today and building a student solar car program for tomorrow.";
+  "X2 Motorsports is an independent motorsports team racing RaceRoom competitively today and building toward a 24 Hours of Lemons endurance entry for tomorrow.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://x2motorsportswebsite.vercel.app"),

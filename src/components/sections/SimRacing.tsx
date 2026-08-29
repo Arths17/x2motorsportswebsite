@@ -8,7 +8,7 @@ export default function SimRacing() {
             We compete in RaceRoom Racing Experience, running a full sim rig
             with real telemetry, race craft, and setup work. It&rsquo;s the
             same discipline as full-scale racing, without the fuel bill, and
-            how we build an audience and sharpen the team before the solar
+            how we build an audience and sharpen the team before the Lemons
             car hits the track.
           </p>
         </div>

@@ -11,6 +11,11 @@ const FOUNDERS = [
     role: "Co-Founder",
     photo: "/team/vedakshay-kapa.jpg",
   },
+  {
+    name: "Shiven Kulkarni",
+    role: "Co-Founder",
+    photo: "/team/shiven-kulkarni.jpg",
+  },
 ];
 
 export default function Team() {
@@ -22,7 +27,7 @@ export default function Team() {
           X2 started with two people who wanted to race competitively and
           build something bigger than a hobby project, with no school
           program or existing team behind it. Everything here, from the sim
-          rig to the solar car plans, is being built from scratch.
+          rig to the Lemons build, is being built from scratch.
         </p>
 
         <div className="grid sm:grid-cols-2 gap-8 max-w-2xl">

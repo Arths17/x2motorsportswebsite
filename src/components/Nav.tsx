@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const LINKS = [
   { href: "#sim-racing", label: "Sim Racing" },
-  { href: "#solar-car", label: "Solar Car" },
+  { href: "#lemons", label: "Lemons" },
   { href: "#sponsors", label: "Sponsors" },
   { href: "#team", label: "Team" },
   { href: "#contact", label: "Contact" },

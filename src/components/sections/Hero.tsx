@@ -7,7 +7,7 @@ export default function Hero() {
         </h1>
         <p className="mt-6 max-w-xl text-muted leading-relaxed text-lg">
           X2 Motorsports races RaceRoom competitively today, and is building
-          toward a student-built solar car entry. Both run entirely
+          toward a 24 Hours of Lemons endurance car. Both run entirely
           independent, with no institutional backing. Just a team building
           credibility from scratch.
         </p>
