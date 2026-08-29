@@ -3,7 +3,7 @@ export default function Hero() {
     <section id="top" className="px-6 md:px-10 pt-16 pb-20 md:pt-24 md:pb-28 border-b border-line">
       <div className="mx-auto max-w-5xl">
         <h1 className="font-display text-4xl sm:text-5xl md:text-6xl leading-[1.1] max-w-3xl">
-          Two people, two race programs, no school behind either one.
+          A small independent team, two race programs, no school behind either one.
         </h1>
         <p className="mt-6 max-w-xl text-muted leading-relaxed text-lg">
           X2 Motorsports races RaceRoom competitively today, and is building

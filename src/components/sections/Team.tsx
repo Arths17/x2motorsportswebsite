@@ -24,13 +24,13 @@ export default function Team() {
       <div className="mx-auto max-w-5xl">
         <h2 className="font-display text-3xl md:text-4xl mb-5">Team</h2>
         <p className="max-w-2xl text-muted leading-relaxed mb-10">
-          X2 started with two people who wanted to race competitively and
+          X2 started with a small group who wanted to race competitively and
           build something bigger than a hobby project, with no school
           program or existing team behind it. Everything here, from the sim
           rig to the Lemons build, is being built from scratch.
         </p>
 
-        <div className="grid sm:grid-cols-2 gap-8 max-w-2xl">
+        <div className="grid sm:grid-cols-3 gap-8 max-w-3xl">
           {FOUNDERS.map((person) => (
             <div key={person.name}>
               <div className="aspect-square w-full max-w-50 relative overflow-hidden border border-line">
